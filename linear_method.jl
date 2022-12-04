@@ -6,7 +6,7 @@ struct LinearModel
 end
 
 # refer to the wikepedia page about mean square method
-function linear_fit(x::Vector{Real}, y::Vector{Real})::LinearModel
+function linear_fit(x::Vector{Float64}, y::Vector{Float64})::LinearModel
     xmed = mean(x)
     ymed = mean(y)
 
